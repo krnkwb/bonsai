@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Model weights (large binary files — download via ./scripts/download_model.sh)
+models/
+
+# Vendor (cloned by setup.sh)
+vendor/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
